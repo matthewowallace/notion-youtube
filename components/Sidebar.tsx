@@ -16,6 +16,10 @@ const Sidebar = () => {
      const menuOptions = (
       <>
         <NewDocumentbtn />
+
+        {/* { Documents } */}
+        {/* {List} */}
+        
       </>
     );
   

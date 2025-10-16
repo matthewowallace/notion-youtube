@@ -4,6 +4,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton, useUser } from "@clerk/n
 import Breadcrumbs from "./Breadcrumbs";
 
 
+
 const Header = () => {
     const { user } = useUser();
 
@@ -16,8 +17,8 @@ return (
             </h1>
         )}
 
-        {/* { Breadcrumbs } */}
-        <Breadcrumbs/>
+        <Breadcrumbs />
+        
         <div>
             <SignedOut>
                 <SignInButton />
